@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Journal</string>
+    <string name="Diary">Электронный журнал</string>
+    <string name="Enter">Авторизация</string>
+    <string name="Newperson">Регистрация</string>
+    <string name="ParentVh">Войти как родитель</string>
+    <string name="ChildVh">Войти как ученик</string>
+    <string name="DirektorVh">Войти как директор</string>
+    <string name="TaetcherVh">Войти как учитель</string>
+    <string name="Login">Логин</string>
+    <string name="Password">Пароль</string>
+    <string name="ParentZa">Зарегестрироваться как родитель</string>
+    <string name="ChildZA">Зарегестрироваться как ученик</string>
+    <string name="TaetcherZA">Зарегестрироваться как учитель</string>
+    <string name="RPonedelnik">Расписание на понедельник</string>
+    <string name="RVtornik">Расписание на вторник</string>
+    <string name="RSreda">Расписание на среду</string>
+    <string name="RChetverg">Расписание на четверг</string>
+    <string name="RPyatnizha">Расписание на пятницу</string>
+    <string name="RSybbota">Расписание на субботу</string>
+    <string name="RVoskresenie">Успеваемость</string>
+    <string name="Prosmotrozenok">Oценки</string>
+    <string name="Vashvhod">Вы вошли как:</string>
+    <string name="Posmotreti">Меню:</string>
+    <string name="Timetableforchilde">Домашнее задание</string>
+
+    <string name="password">Введите пароль</string>
+    <string name="password_registration">Введите пароль для регистрации</string>
+    <string name="name_registrations">Введите имя для регистрации</string>
+    <string name="name">Введите имя</string>
+    <string name="registration">Регистрация</string>
+    <string name="set_registration">Зарегистрироваться</string>
+    <string name="student_authorization">Авторизация для ученика</string>
+    <string name="teacher_authorization">Авторизация для учителя</string>
+    <string name="parent_authorization">Авторизация для родителя</string>
+    <string name="admin_authorization">Авторизация для директора</string>
+    <string name="choose">Войти как:</string>
+    <string name="authorization">Авторизация</string>
+    <string name="director_authorization">Авторизация для директора</string>
+    <string name="student">Ученик</string>
+    <string name="admin">Админ</string>
+    <string name="parent">Родитель</string>
+    <string name="teacher">Учитель</string>
+    <!-- Дни недели-->
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресение</string>
+    <!-- Дни недели-->
+
+    <string name="EnterTask">Введите задание</string>
+    <string name="EnterSubject">Введите предмет</string>
+    <string name="Change">Изменить</string>
+    <string name="Save">Save</string>
+    <string name="student_wrong">Такой ученик не найден</string>
+    <string name="teacher_wrong">Такой учительн не найден</string>
+    <string name="parent_wrong">Авторизация для родителя</string>
+    <string name="admin_wrong">Данные введены неверно</string>
+    <string name="director_wrong">Авторизация для директора</string>
+</resources>

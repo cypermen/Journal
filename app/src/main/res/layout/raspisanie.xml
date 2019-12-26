@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/behind">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ponedelnik1"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Понедельник"
+                    android:textColor="@color/den"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/purok2_number"
+                            android:layout_width="25dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/purok2"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:id="@+id/crok"
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/purok3_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/purok3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/purok4_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/purok4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/purok5_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/purok5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/purok6_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/purok6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/purok7_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="7"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/purok7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/purok8_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="8"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/purok8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/vtornik1"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Вторник"
+                    android:textColor="@color/den"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok1_number"
+                            android:layout_width="25dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok1"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok2_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok3_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok4_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok5_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok6_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok7_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="7"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/vurok8_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="8"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/vurok8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sreda11"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Среда"
+                    android:textColor="@color/den"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok1_number"
+                            android:layout_width="25dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok1"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok2_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok3_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok4_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok5_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok6_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok7_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="7"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/surok8_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="8"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/surok8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chetverg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Четверг"
+                    android:textColor="@color/den"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok1_number"
+                            android:layout_width="25dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok1"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok2_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok3_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok4_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok5_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok6_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok7_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="7"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/curok8_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="8"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/curok8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+                </TableLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pyatnica1"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Пятница"
+                    android:textColor="@color/den"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok1_number"
+                            android:layout_width="25dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok1"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok2_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok3_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok4_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok5_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok6_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok7_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="7"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/urok8_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="8"
+                            android:textColor="@color/numb" />
+
+                        <TextView
+                            android:id="@+id/urok8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/urok"
+                            android:gravity="center"
+                            android:text="Алгебра" />
+
+                        <EditText
+                            android:layout_width="286dp"
+                            android:layout_height="match_parent"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                    </TableRow>
+                    />
+                </TableLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

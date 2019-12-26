@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="button">#AB1E0AB5</color>
+    <color name="behind">#AB1DE6ED</color>
+    <color name="numb">#FD000000</color>
+    <color name="urok">#F44336</color>
+    <color name="den">#AB1A26FD</color>
+</resources>
